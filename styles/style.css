@@ -1,0 +1,26 @@
+body {
+    background-color:antiquewhite;
+    color:rgb(100, 99, 99);
+    font-size: 21px;
+
+}
+
+p{
+    color:rgb(54, 52, 52);
+
+}
+
+h1{
+    font-size: 25px;
+    color:rgb(215, 111, 47);
+
+}
+
+div {
+    background: pink;
+    width: 250px;
+}
+span{
+    color:blueviolet;
+    text-emphasis: bold;
+}
