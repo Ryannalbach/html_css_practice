@@ -1,1 +1,2 @@
-console.log("logging first js script");
+let name = "Ryan" ;
+console.log(name);
