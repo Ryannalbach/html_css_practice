@@ -25,16 +25,20 @@ p{
 }
 
 h1{
-    flex-basis: auto;
-    font-size: 25px;
+    text-shadow: 1px 1px rgb(203, 203, 171);
+    flex-basis: 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
     color:rgb(6, 6, 6);
 
 }
 
-*div {
-    flex-wrap: 1;
+div {
+    display: flex;
+    flex-wrap: wrap;
     background: rgb(129, 128, 128);
-
+    gap: 1rem;
     width: 250px;
 }
 span{
