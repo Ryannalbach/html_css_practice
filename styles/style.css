@@ -6,15 +6,17 @@ body {
 }
 .nav-list {
     display: flex;
+    gap: 1rem;
 
     margin: 0;
     padding: 0;
     list-style: none;
 }
 .nav-list li {
+    flex-grow: 1;
     flex-shrink: 1;
-    gap: 1rem;
     
+
 }
 /* this is a css comment */
 p{
@@ -23,13 +25,16 @@ p{
 }
 
 h1{
+    flex-basis: auto;
     font-size: 25px;
     color:rgb(6, 6, 6);
 
 }
 
-div {
+*div {
+    flex-wrap: 1;
     background: rgb(129, 128, 128);
+
     width: 250px;
 }
 span{
