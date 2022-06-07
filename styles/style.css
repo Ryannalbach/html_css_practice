@@ -4,7 +4,7 @@ body {
     font-size: 21px;
 
 }
-
+/* this is a css comment */
 p{
     color:rgb(208, 200, 200);
 
@@ -27,8 +27,25 @@ span{
 
 .top-section{
     background: rgb(60, 68, 60);
+    width: 250px;
+    margin: 50px;
+    border: 3px solid darkslategray;
+    padding: 20px;
 }
 
 .bottom-section{
-    background:rgb(148, 149, 165)
+    background:rgb(148, 149, 165);
+    width: 250px;
+    margin: 50px;
+    border: 3px solid darkslategray;
+    padding: 20px;
+}
+
+.box{
+    background: white;
+    width: 300px; /*margin creates space without background of box color*/
+    margin: 50px;
+    border: 2px solid rgb(52, 50, 50);
+    padding: 20px;
+    /*padding creates empty space with background color*/
 }
